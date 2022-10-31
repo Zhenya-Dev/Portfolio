@@ -1,0 +1,186 @@
+<!--Сообщаем браузеру как обрабывать страницу-->
+<!DOC--Оболочка документа(указиваем язык)-->
+<html lang="ru">
+<!--Заголовок страници(в коде)-->
+    <head>
+        <!--Заголовок страници(в коде)-->
+        <title>Страница</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!--Кодировка страници-->
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <!--Тело страници(в браузере)-->
+    <body>
+        <section class="about">
+            <div class="container">
+                <header class="header">
+                     <ul class="header__menu">
+                        <li class="header__item">
+                            <a class="header__link" href="#about">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#products">Menu</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#specific">Info</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="#booking">Booking</a>
+                        </li>
+                    </ul>
+
+                    <a class="header__logo" href="#">
+                        <img class="header__logo_img" src="img/logo.svg" alt="logo">
+                    </a>
+
+                    <ul class="header__social">
+                        <li class="header__social_item">
+                            <a href="#" class="header__social_link">
+                                <img src="img/mail-icon.svg" alt="mail" class="header__social_img">
+                            </a>
+                        </li>
+                        <li class="header__social_item">
+                            <a href="#" class="header__social_link">
+                                <img src="img/fb-icon.svg" alt="facebook" class="header__social_img">
+                            </a>
+                        </li>
+                        <li class="header__social_item">
+                            <a href="#" class="header__social_link">
+                                <img src="img/inst-icon.svg" alt="instagram" class="header__social_img">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </header>
+
+                <div class="about__inner"></div>
+            </div>
+        </section>
+
+        <div class="about_us" id="about">
+            <h3 class="about_us__title">About Us</h3>
+            <p class="about_us__text">Tucked away in the corner of Wellington, Latte Cafe is a local neighbourhood cafe and bar. Latte is all about doing what we love, in a city that we love. We keep stocked with local produce and pastries. Bring your family for a bite, or meet your friends for a coffee or warm drink.</p>
+        </div>
+
+        <section class="products" id="products">
+            <div class="container">
+                <div class="products__inner">
+                    <div class="products__info">
+                        <h3 class="products__title">Menu</h3>
+                        <p class="products__text">
+                            We change our menu every season. Here is what we are currently dishing up.
+                        </p>
+                        <div class="products__buttons">
+                            <a class="products__btn" href="#">Food Menu</a>
+                            <a class="products__btn" href="#">Drinks Menu</a>
+                            <a class="products__btn" href="#">Takeaway Menu</a>
+                        </div>
+                    </div>
+                    <img class="products__photo" src="img/menu.jpg" alt="Menu">
+                </div>
+            </div>
+        </section>
+
+        <section class="specific" id="specific">
+            <div class="container">
+                <div class="specific__inner">
+                    <div class="specific__item">
+                        <h3 class="specific__title">Location</h3>
+                        <p class="specific__text">101 Cuba St,<br> Te Aro, Wellington</p>
+                    </div>
+
+                    <div class="specific__item">
+                        <h3 class="specific__title">Hours</h3>
+                        <p class="specific__text">Tuesday to Friday <br> 7AM - 3PM</p>
+                        <p class="specific__text">Saturday to Sunday <br> 8AM - 3PM</p>
+                    </div>
+
+                    <div class="specific__item">
+                        <h3 class="specific__title">Mondays</h3>
+                        <p class="specific__text">We are closed on Mondays to reflect and refuel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="interior">
+            <div class="container">
+                <div class="interior__flex">
+                    <div class="sales">
+                        <img class="drinks" src="img/drinks.jpg" alt="drinks" >
+                        <img class="eats" src="img/eats.jpg" alt="eats" >
+                    </div>
+                    <div class="interior__img_wrapper">
+                        <img class="hall" src="img/hall.jpg" alt="hall">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking" id="booking">
+            <div class="container">
+                <div class="text__tab">
+                    <p class="text__tab_header">Award winning cafe and bar.</p>
+                    <p class="text__tab_item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <ul class="footer__contacts">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Home</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">About</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Menu</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Info</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Contact</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Style Guide</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Licenses</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Changelog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Password</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">404</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__about">
+                        <li class="footer__item">© Latte Cafe 2022.</li>
+                        <li class="footer__item">Built by Yevhenii Vasylchenko</li>
+                        <li class="footer__item">Powered by Webflow</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+<script src="js/script.js"></script>
+    </body>
+</html>

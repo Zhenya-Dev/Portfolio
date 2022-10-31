@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "global.css";
+
+@import "header.css";
+@import "about_us.css";
+@import "products.css";
+@import "specific.css";
+@import "interior.css";
+@import "booking.css";
+@import "contacts.css";

@@ -1,0 +1,136 @@
+.specific{
+    font-size: 25px;
+    color: #FFFFFF;
+    background: #AA9E54;
+    padding: 120px 0 135px 0;
+    text-align: center;
+}
+
+.specific__inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.specific__title{
+    font-weight: 700;
+    font-family: 'Azeret Mono', sans-serif;
+    font-size: 17px;
+    padding:  0 0  15px 0;
+}
+
+.specific__text{
+    padding: 0 0 35px 0;
+}
+
+.specific__item{
+    width: 30%;
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .specific__text {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .specific__text{
+        font-size: 17px;
+        padding: 0 0 7px 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .specific{
+        padding: 46px 18px;
+    }
+
+
+    .specific__text {
+        font-size: 15px;
+    }
+
+    .specific__title{
+        font-size: 14px;
+        padding: 0 0 6px 0;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .specific__text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .specific__text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .specific__text {
+        max-width: 220px;
+    }
+
+    .specific__title {
+        font-size: 12px;
+    }
+
+    .specific {
+        padding: 14px 5px;
+    }
+}
+
+
+@media only screen and (max-width: 446px) {
+    .specific__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .specific__item {
+        padding: 8px;
+    }
+
+    .specific__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .specific__title {
+        font-size: 14px;
+        padding: 0 0 3px 0;
+    }
+
+    .specific__item {
+        padding: 4px;
+    }
+
+    .specific {
+        padding: 9px;
+    }
+
+    .specific__item{
+        width: 60%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    .specific__text {
+        font-size: 12px;
+    }
+
+    .specific__title {
+        font-size: 15px;
+    }
+}

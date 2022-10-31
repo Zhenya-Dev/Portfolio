@@ -1,0 +1,186 @@
+.interior__flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 152px 0 120px 0;
+}
+
+.sales{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hall{
+    padding: 0 0 0 40px;
+}
+
+.drinks{
+    padding: 0 0 40px 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .sales img {
+        max-width: 480px;
+    }
+
+    .hall {
+        max-width: 470px;
+    }
+
+    .drinks{
+        padding: 0 0 20px 0;
+    }
+
+    .hall{
+        padding: 0 0 20px 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 908px) {
+    .sales img {
+        max-width: 420px;
+    }
+
+    .hall {
+        max-width: 414px;
+    }
+
+    .interior__flex{
+        padding: 70px 0;
+    }
+
+    .drinks{
+        padding: 0 0 20px 0;
+    }
+
+    .hall{
+        padding: 0 0 20px 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .sales img {
+        max-width: 352px;
+    }
+
+    .hall {
+        max-width: 350px;
+    }
+
+    .interior__flex{
+        padding: 70px 0;
+    }
+
+    .drinks{
+        padding: 0 0 20px 0;
+    }
+
+    .hall{
+        padding: 0 0 20px 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 660px) {
+    .interior__flex {
+        flex-wrap: wrap
+    }
+
+    .eats {
+        padding: 0 0 20px 0;
+    }
+
+    .sales img {
+        max-width: 620px;
+    }
+
+    .hall {
+        max-width: 620px;
+        padding: 0;
+    }
+
+    .interior__flex {
+        padding: 30px 0;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 555px) {
+    .sales img {
+        max-width: 500px;
+    }
+
+    .hall {
+        max-width: 500px;
+    }
+
+    .interior__flex {
+            padding: 20px 0;
+        }
+
+
+
+
+}
+
+@media only screen and (max-width: 426px) {
+    .sales img {
+        max-width: 400px;
+    }
+
+    .hall {
+        max-width: 400px;
+    }
+
+    .interior__flex {
+        padding: 20px 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 376px) {
+    .sales img {
+        max-width: 350px;
+    }
+
+    .hall {
+        max-width: 350px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .sales img {
+        max-width: 300px;
+    }
+
+    .hall {
+        max-width: 300px;
+    }
+
+}
+
+
+
+

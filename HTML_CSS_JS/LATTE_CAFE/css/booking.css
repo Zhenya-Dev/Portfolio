@@ -1,0 +1,116 @@
+.booking{
+    background: #4A2B33;
+    color: #D27487;
+    padding: 139px 0;
+}
+
+.text__tab{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text__tab_item{
+    font-size: 18px;
+    width: 595px;
+    margin-left: 175px;
+}
+
+.text__tab_header{
+    font-family: 'Azeret Mono',sans-serif;
+    font-size: 47px;
+    letter-spacing: 1px;
+    width: 413px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .text__tab_item{
+        font-size: 14px;
+        width: 450px;
+        margin-left: 35px;
+    }
+
+    .text__tab_header{
+        font-size: 40px;
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 810px) {
+    .text__tab_header {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    .text__tab_item{
+        width: 351px;
+        margin-left: 63px;
+        font-size: 12px;
+    }
+
+   .booking{
+       padding: 70px 0;
+   }
+
+    .text__tab_header {
+        font-size: 30px;
+        width: 295px;
+    }
+}
+@media only screen and (max-width: 660px)
+{
+    .text__tab_item {
+        width: 351px;
+        margin-left: 15px;
+    }
+
+    .text__tab_header {
+        font-size: 26px;
+    }
+
+}
+
+@media only screen and (max-width: 555px) {
+    .text__tab_header {
+        font-size: 38px;
+        width: 375px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .text__tab{
+        flex-wrap: wrap;
+    }
+
+    .booking {
+        padding: 15px 0;
+    }
+
+}
+
+@media only screen and (max-width: 426px)
+{
+    .text__tab_item {
+        text-align: center;
+
+    }
+    .text__tab_header{
+        font-size: 31px;
+        width: 301px;
+        padding: 13px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .text__tab_header {
+        font-size: 19px;
+        width: 200px;
+        padding: 13px;
+    }
+}

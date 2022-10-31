@@ -1,0 +1,132 @@
+.about_us{
+    background: #F5F5F5;
+    padding: 220px 0 ;
+}
+
+.about_us__title{
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.about_us__text{
+    max-width: 869px;
+    text-align: center;
+    margin:3px auto 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .about_us {
+        padding: 120px 0;
+    }
+}
+
+@media only screen and (max-width: 909px) {
+    .about_us{
+        padding: 100px 0 ;
+    }
+
+    .about_us__text{
+        max-width: 770px;
+        font-size: 20px;
+    }
+
+    .about_us__title {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about_us {
+        padding: 65px 0;
+    }
+
+    .about_us__text{
+        max-width: 640px;
+        font-size: 18px;
+    }
+
+    .about_us__title {
+        font-size: 15px;
+    }
+
+    .about_us {
+        padding: 35px 0;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+    .about_us__text {
+        max-width: 491px;
+        font-size: 14px;
+    }
+
+    .about_us__title {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .about_us__text {
+        max-width: 414px;
+        font-size: 15px;
+    }
+
+    .about_us__title {
+        font-size: 10px;
+    }
+
+    .about_us {
+        padding: 20px 0;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .about_us__title {
+        font-size: 12px;
+    }
+
+    .about_us__text {
+        max-width: 373px;
+        font-size: 13px;
+    }
+
+    .about_us{
+        padding: 20px 0 ;
+    }
+
+
+}
+
+@media only screen and (max-width: 376px) {
+
+    .about_us__title {
+        font-size: 10px;
+    }
+
+    .about_us__text {
+        max-width: 301px;
+        font-size: 11px;
+    }
+
+    .about_us{
+        padding: 16px 0 ;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px)
+{
+    .about_us__text {
+        max-width: 302px;
+        font-size: 13px;
+    }
+
+}

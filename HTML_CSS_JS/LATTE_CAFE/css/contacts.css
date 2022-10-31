@@ -1,0 +1,155 @@
+.footer{
+
+    height: 187px;
+    background: #FFFFFF;
+    font-size: 15px;
+    padding: 56px 0 39px 0;
+}
+
+.footer__contacts{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 41px 19px;
+    justify-content: space-between;
+}
+
+.footer__inner{
+    width: 575px;
+    margin: 0 auto;
+}
+
+.footer__link{
+    color: #1F1F1F;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.footer__item{
+    margin: 0 16px;
+}
+
+.footer__about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    justify-content: center;
+}
+
+.footer__link{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .footer__link {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .footer__contacts {
+        margin: 0 48px 11px;
+    }
+}
+
+
+@media only screen and (max-width: 660px) {
+    .footer__contacts {
+        margin: 0 91px 15px;
+    }
+
+    .footer__link {
+        font-size: 13px;
+    }
+
+    .footer__item {
+        font-size: 11px;
+        margin: 0 7px;
+    }
+
+    .footer {
+        max-height: 117px;
+        background: #FFFFFF;
+        font-size: 15px;
+        padding: 21px 0 7px 0;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .footer__inner {
+        width: 531px;
+}}
+
+@media only screen and (max-width: 490px)
+{
+    .footer__inner {
+    width: 460px;
+    }
+
+    .footer__contacts {
+        margin: 0 72px 15px;
+    }
+
+    .footer__link {
+        font-size: 11px;
+    }
+
+    .footer__item {
+        font-size: 9px;
+        margin: 0 4px;
+    }
+
+    .footer__contacts {
+        margin: 0 72px 6px;
+    }
+
+    .footer {
+        padding: 24px 0 7px 0;
+    }
+
+}
+@media only screen and (max-width: 426px) {
+
+    .footer__inner {
+        width: 250px;
+    }
+
+    .footer__contacts {
+        margin: 0 24px 15px;
+    }
+
+    .footer__inner {
+        width: 323px;
+    }
+
+    .footer__about {
+        margin: -10px;
+    }
+
+    .footer__link {
+        line-height: 17px;
+    }
+
+    .footer__item {
+        font-size: 11px;
+        margin: 0 4px;
+    }
+
+    .footer {
+        height: 98px;
+        background: #FFFFFF;
+        font-size: 15px;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .footer__contacts {
+        margin: 0 -7px 15px;
+    }
+
+    .footer__inner {
+        width: 260px;
+    }
+}

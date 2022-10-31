@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color:#222222;
+    overflow-x: hidden;
+}
+
+body.active{
+    overflow-y: hidden;
+}
+
+.container{
+    max-width: 1328px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
