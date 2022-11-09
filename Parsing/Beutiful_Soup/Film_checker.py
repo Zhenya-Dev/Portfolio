@@ -13,7 +13,7 @@ headers = {
 r = requests.get(url=url, headers=headers)
 
 # Passing the request to the framework
-soup = BeautifulSoup(r.text, 'lxml')
+soup = BeautifulSoup(r.text)
 
 # write find or get to search
 soup_all = soup.find('div', class_='movie-item short-item')
@@ -34,7 +34,7 @@ for i in range(3):
         'accept': '*/*'}
     r = requests.get(url=url, headers=headers)
 
-    soup = BeautifulSoup(r.text, 'lxml')
+    soup = BeautifulSoup(r.text)
 
     Soup_all = soup.find_all('div', class_='movie-item short-item')
 

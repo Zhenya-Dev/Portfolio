@@ -25,7 +25,7 @@ title.send_keys(Keys.ENTER)
 sleep(5)
 
 # BeautifulSoup now
-soup = BeautifulSoup(browser.page_source, 'lxml')
+soup = BeautifulSoup(browser.page_source)
 name_ukr = soup.find(
     'div', class_="alltitle").find(
         'span', class_="solototle").text
